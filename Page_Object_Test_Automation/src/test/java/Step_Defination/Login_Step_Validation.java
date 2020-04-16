@@ -28,30 +28,16 @@ public class Login_Step_Validation {
 	Eyes eyes = new Eyes(runner);
 	@Given("^User Open Browser for LinkedIn Login Validation$")
 	public void user_Open_Browser_for_LinkedIn_Login_Validation() throws Throwable {
-		/*driver = Hooks.driver;
+		driver = Hooks.driver;
 		BasicConfigurator.configure();
 		logger.info("Fetching URL and Opening the Url");
-		prop=new Properties();
-		FileInputStream fis=new FileInputStream("src//main//resources//Browser.properties");
-		prop.load(fis);
-		String url=prop.getProperty("url");
-		// Change the APPLITOOLS_API_KEY API key with yours
-		eyes.setApiKey("wdTLJFmx21aatPmvMTx8ChcQcKaFJupM7YTi6EiBtFs110");
-	
-		// Set AUT's name, test name and viewport size (width X height)
-		// We have set it to 800 x 600 to accommodate various screens. Feel free to
-		// change it.
-		eyes.open(driver, "Demo App", "Smoke Test", new RectangleSize(800, 600));
-		driver.manage().window().maximize();
-		// Navigate the browser to the "ACME" demo app.
-		driver.get(prop.getProperty("url"));
-		eyes.checkWindow("Login Window");	*/    
+		
 	}
 
 	@When("^User pass Username as \"(.*?)\" and Password as \"(.*?)\"$")
 	public void user_pass_Username_as_and_Password_as(String username, String password) throws Throwable {
 		
-		/*BasicConfigurator.configure();
+		
 		//Initialization
 		PageFactory.initElements(driver, Login_Page_Object.class);		
 		WebDriverWait wait2 = new WebDriverWait(driver, 10);
@@ -69,7 +55,7 @@ public class Login_Step_Validation {
 		.until(ExpectedConditions.visibilityOf(Login_Page_Object.Sign_In));
 		element4.click();
 		Thread.sleep(2000);
-		eyes.checkWindow("Window After Login");		*/
+		
 	}
 
 	@Then("^Validation Step is Performed$")

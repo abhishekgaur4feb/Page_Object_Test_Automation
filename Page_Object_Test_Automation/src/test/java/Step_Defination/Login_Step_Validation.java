@@ -49,7 +49,7 @@ public class Login_Step_Validation {
 		WebElement element3 = wait3
 		.until(ExpectedConditions.visibilityOf(Login_Page_Object.Password));
 		element3.clear();
-		element3.sendKeys(password) ;
+		element3.sendKeys(password);
 		WebDriverWait wait4 = new WebDriverWait(driver, 10);
 		WebElement element4 = wait4
 		.until(ExpectedConditions.visibilityOf(Login_Page_Object.Sign_In));

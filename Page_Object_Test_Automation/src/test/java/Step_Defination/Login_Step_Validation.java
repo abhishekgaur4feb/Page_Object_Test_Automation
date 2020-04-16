@@ -59,13 +59,9 @@ public class Login_Step_Validation {
 	}
 
 	@Then("^Validation Step is Performed$")
-	public void message_displayed_Login_Successfully() throws Throwable {/*
+	public void message_displayed_Login_Successfully() throws Throwable {
 		
-		String Current_Url = driver.getCurrentUrl();
-		eyes.closeAsync();
-		driver.quit();
-		eyes.abortIfNotClosed();
-	*/}
+	}
 	
 
 }

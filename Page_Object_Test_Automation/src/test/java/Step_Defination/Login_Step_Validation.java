@@ -54,7 +54,7 @@ public class Login_Step_Validation {
 		WebElement element4 = wait4
 		.until(ExpectedConditions.visibilityOf(Login_Page_Object.Sign_In));
 		element4.click();
-		Thread.sleep(2000);
+		Thread.sleep(2000) ;
 		
 	}
 
